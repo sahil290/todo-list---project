@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2020/12/15/06/28/pier-5832800_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    text-decoration: underline;
+}
+h1:hover{
+    color: rgb(2, 14, 36);
+    transform: rotate(10deg);
+    transform: scale(1.5);
+}
+#main-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    top: 50px;
+    left: 490px;
+    width: 300px;
+    background-color: #570d0d36;
+    color: #ffffff;
+    border-radius: 100%;
+    box-shadow: -10px 0px 0px 10px rgb(14, 15, 15),
+    0px 10px 10px 10px rgb(3, 92, 92);
+}
+input{
+    position: absolute;
+    letter-spacing: 2px;
+    height: 40px;
+    width: 200px;
+    top: 100px;
+    text-align: center;
+    color : rgb(3, 92, 92);
+    font-size: 15px;
+}
+input:hover{
+    transform: scale(1.1);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+button{
+    position: absolute;
+    top: 170px;
+    height: 40px;
+    width: 100px;
+    color: #ffffff;
+    background-color: lightseagreen;
+    border: 2px solid #000000;
+}
+button:hover{
+    transform: scale(1.1);
+    color: rgb(253, 252, 252);
+    background-color: #000000;
+    border-radius: 5%;
+    font-size: 15px;
+}
+ol{
+    position: absolute;
+    line-height: 1.4;
+    top: 10px;
+    margin-right: 1000px;
+    font-size: 25px;
+    color: #fdfbfb;
+    text-decoration: underline rgb(6, 197, 245);
+    filter: brightness(200%);
+}
+ol:hover{
+    color: rgb(238, 104, 14);
+    text-decoration: underline black;
+    transform: scale(1.1);
+    transform: rotate(10deg,10deg);
+}
